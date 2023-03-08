@@ -30,7 +30,7 @@ if(a== 1):
 	disp = "positive sentiment"
 elif(a== 0):
 	disp = "negative sentiment"
-else(a==-1):
+else(a== 0):
 	disp = "neutral sentiment"
 st.write('The sentiment of the given text is:', disp)
 
