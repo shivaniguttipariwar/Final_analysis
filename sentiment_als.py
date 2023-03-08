@@ -26,7 +26,7 @@ if predict_btt:
     disp=" "
 	
 a = loaded_model.predict([sentence])[0]
-if(a== 1):
+if:
 	disp = "positive sentiment"
 elif(a== 0):
 	disp = "negative sentiment"
