@@ -25,11 +25,11 @@ if __name__ == '__main__':
     loaded_model = pickle.load(open('sentiment_analysis.p', 'rb')) 
 
     if predict_btt:
-        a = loaded_model.predict([sentence])[0]
+        a = loaded_model.predict([sentence])[-1]
         if a == 1:
             "The sentiment of the given text is positive sentiment"
         elif a == 0:
             "The sentiment of the given text is negative sentiment"
-        else :
+        else a == -1:
             disp1 = "neutral sentiment"
             st.write('The sentiment of the given text is: ', disp1)
