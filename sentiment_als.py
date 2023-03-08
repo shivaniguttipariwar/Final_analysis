@@ -26,12 +26,13 @@ if predict_btt:
     disp=" "
 	
 a = loaded_model.predict([sentence])[0]
-if:
-	disp = "positive sentiment"
-elif(a== 0):
-	disp = "negative sentiment"
-else(a== 0):
-	disp = "neutral sentiment"
-st.write('The sentiment of the given text is:', disp)
+if a == 1:
+    disp = "positive sentiment"
+elif a == 0:
+    disp = "negative sentiment"
+else:
+    disp = "neutral sentiment"
+st.write('The sentiment of the given text is: ', disp)
+
 
         
