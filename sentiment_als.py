@@ -29,9 +29,9 @@ if __name__ == '__main__':
         if a == 1:
             "The sentiment of the given text is: positive sentiment"
         elif a == 0:
-            "The sentiment of the given text is: neutral sentiment"
-        else :
             "The sentiment of the given text is: negative sentiment"
+        else :
+            "The sentiment of the given text is: neutral sentiment"
 
             
             
