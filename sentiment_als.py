@@ -31,8 +31,7 @@ if __name__ == '__main__':
         elif a == -1:
             "The sentiment of the given text is: negative sentiment"
         else :
-            disp1 = "neutral sentiment"
-            st.write('The sentiment of the given text is: ', disp1)
+            "The sentiment of the given text is: neutral sentiment"
 
             
             
