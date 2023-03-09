@@ -28,8 +28,7 @@ if __name__ == '__main__':
         a = loaded_model.predict([sentence])[0]
         if a == 1:
             "The sentiment of the given text is: positive sentiment"
-        elif :
-            a == -1
+        elif a == -1:
             "The sentiment of the given text is: negative sentiment"
         else:
             a == 0
