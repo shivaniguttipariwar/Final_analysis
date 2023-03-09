@@ -26,12 +26,12 @@ if __name__ == '__main__':
 
     if predict_btt:
         a = loaded_model.predict([sentence])[0]
-        if a == 1:
+        if a == 2:
             "The sentiment of the given text is: positive sentiment"
-        elif a == 0:
-            "The sentiment of the given text is: negative sentiment"
-        else :
+        elif a == 1:
             "The sentiment of the given text is: neutral sentiment"
+        else :
+            "The sentiment of the given text is: negative sentiment"
 
             
             
